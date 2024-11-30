@@ -1,0 +1,29 @@
+.custom-shape-divider-top-1732443735 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1732443735 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-top-1732443735 .shape-fill {
+    fill: #0c6e1b;
+}
+.font-hightlight{
+  /* border: 1px solid #fc0545;
+  width: 400px;
+  height: 100px; */
+  animation: mymove 2s infinite;
+}
+@keyframes mymove {
+    /* 50% {font-weight: bold;} */
+    50% {text-shadow: 10px 20px 30px blue;}
+  }

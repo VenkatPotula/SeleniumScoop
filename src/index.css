@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensures the body fills the viewport */
+  overflow-x: hidden;
+  font-family: serif;
+  /* Prevents horizontal scrollbars */
+}
+
+/* 
+body {
+  background: url('/src/assets/fullbg.jpg') no-repeat center center fixed;
+
+  background-size: cover;
+  background-position: center;
+} */
+html{
+  scroll-behavior: smooth;
+}
+/* src/index.css or src/globals.css */
+/* .active {
+  @apply text-green-500  font-bold;
+} */
