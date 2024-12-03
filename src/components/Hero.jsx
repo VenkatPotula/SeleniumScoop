@@ -93,14 +93,25 @@ const Hero = () => {
       </div>
 
       <div className="sm:flex gap-10  justify-center text-sky-600 md:mt-20 mt-20">
-        <p className=" text-xl font-medium text-center">
-          {" "}
-          seleniumscoop@gmail.com
-        </p>
-        <p className=" text-xl font-medium text-center my-5 sm:my-0">
-          {" "}
-          +91 9347938040
-        </p>
+        <a
+          href="mailto:seleniumscoop@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className=" hover:text-white text-xl font-medium text-center">
+            seleniumscoop@gmail.com
+          </p>
+        </a>
+        <a
+         
+          href="tel:9347938040"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className=" text-xl font-medium text-center my-5 sm:my-0">
+            +91 9347938040
+          </p>
+        </a>
       </div>
       {/* <div className="overflow-hidden w-[90%] mx-auto mt-5  py-2 bg-gray-100    sm:mt-0 rounded-md">
         <div className="animate-marquee righ+t  whitespace-nowrap   text-red  py-3  text-xl flex justify-center ">
